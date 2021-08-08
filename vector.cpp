@@ -13,6 +13,7 @@ int main(int argc, char **argv)
     srand((unsigned int) seconds);
  
     int u1, u2, u3, v1, v2, v3;
+ 
     u1 = rand() % (HIGH - LOW + 1) + LOW;
     u2 = rand() % (HIGH - LOW + 1) + LOW;
     u3 = rand() % (HIGH - LOW + 1) + LOW;
